@@ -25,3 +25,84 @@ body {
     margin: 0 auto;
   }
 }
+
+input,
+button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.75rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+}
+
+input {
+  background: #020617;
+  color: #e5e7eb;
+  border: 1px solid #334155;
+}
+
+button {
+  background: #38bdf8;
+  color: #020617;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error {
+  color: #f87171;
+  margin-top: 0.5rem;
+}
+
+.card {
+  background: #020617;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.card h2 {
+  margin-bottom: 0.25rem;
+}
+
+.points {
+  font-size: 0.9rem;
+  color: #38bdf8;
+  margin-bottom: 0.75rem;
+}
+
+.message {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.leaderboard {
+  margin-top: 1rem;
+}
+
+.leaderboard-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #020617;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.rank {
+  font-weight: bold;
+  color: #38bdf8;
+  width: 40px;
+}
+
+.name {
+  flex: 1;
+  margin-left: 0.5rem;
+}
+
+.score {
+  font-weight: bold;
+}
