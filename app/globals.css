@@ -106,3 +106,38 @@ button {
 .score {
   font-weight: bold;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #020617;
+  border-bottom: 1px solid #334155;
+  padding: 0.75rem 1rem;
+}
+
+.brand {
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+.nav-right {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.nav-right a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.logout {
+  background: transparent;
+  border: 1px solid #334155;
+  color: #f87171;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
