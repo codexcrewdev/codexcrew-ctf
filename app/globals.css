@@ -141,3 +141,12 @@ button {
   border-radius: 6px;
   font-size: 0.85rem;
 }
+
+form {
+  margin-top: 1rem;
+}
+
+form input {
+  margin-bottom: 0.75rem;
+}
+
